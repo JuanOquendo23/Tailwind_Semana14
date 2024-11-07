@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <nav class="bg-cyan-50 shadow-2xl ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+
+        <a href="#" class="flex items-center">
+            <img src="Img/8.png" class="h-10 mr-3" alt="Logo "/>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-cyan-800"> 
+                Invexus
+        </a>
+      
+    </span>
+
+    <button type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-800 rounded-lg md:hidden hover:bg-cyan-950 focus:outline-none focus:ring-offset-cyan-700">
+      <span class="sr-only">Abrir menu principal</span>
+      <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m2.25 4.5c0-.41421.33579-.75.75-.75h14.25c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14.25c-.41421 0-.75-.33579-.75-.75zm0 4.5c0-.41421.33579-.75.75-.75h9.75c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-9.75c-.41421 0-.75-.33579-.75-.75zm14.7129-.69309c.091-.03765.1879-.05662.2849-.05691h.0022.0022c.1009.0003.1971.02051.2849.05691.0909.03772.1729.09282.2416.16117.0006.00053.0011.00106.0016.00159l.0003.0003 3.7497 3.74973c.2929.2929.2929.7677 0 1.0606s-.7677.2929-1.0606 0l-2.4697-2.4696v10.1893c0 .4142-.3358.75-.75.75s-.75-.3358-.75-.75v-10.1893l-2.4697 2.4696c-.2929.2929-.7677.2929-1.0606 0s-.2929-.7677 0-1.0606l3.7497-3.74973.0003-.0003c.0005-.00053.001-.00106.0016-.00159.0715-.07112.1538-.12484.2416-.16117zm-14.7129 5.19309c0-.4142.33579-.75.75-.75h5.25c.41421 0 .75.3358.75.75s-.33579.75-.75.75h-5.25c-.41421 0-.75-.3358-.75-.75z" fill="rgb(0,0,0)" fill-rule="evenodd"/></svg>
+
+    </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-menu" >
+
+        <ul class="font-medium flex flex-col p-4 md:w-auto" id="navbar-menu">
+
+            <li>
+
+                <a href="#" class="block py-2 pl-3 pr-4 text-cyan-800 rounded hover:bg-cyan-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 ">
+
+                    Inicio
+                </a>
+
+            </li> 
+            
+
+
+        </ul>
+
+        <script>document.querySelector('button').addEventListener('click', () => {
+            document.getElementById('navbar-menu').classList.toggle('hidden')
+            
+        });
+    
+
+        
+        
+        
+        
+        </script>
+            
+
+
+        </div>
+</div>
+
+<section class="bg-cyan-700 text-cyan-50">
+    <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div class="mx-auto max-w-3xl text-center">
+        <h1
+          class="bg-gradient-to-r from-cyan-200 via-cyan-400 to-cyan-500 bg-clip-text text-2xl font-extrabold text-transparent sm:text-5xl font-medium"
+        >
+         Sistema de inventario
+  
+          <span class="sm:block"> Basico </span>
+        </h1>
+  
+        <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
+          numquam ea!
+        </p>
+  
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+            href="#"
+          >
+            Entrar
+          </a>
+  
+          <a
+            class="block w-full rounded border border-cyan-950 px-12 py-3 text-sm font-medium text-cyan-50 hover:bg-cyan-600 focus:outline-none focus:ring active:bg-cyan-400 sm:w-auto"
+            href="#"
+          >
+           Mas acerca
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+     
+</body>
+</html>
